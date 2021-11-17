@@ -1,0 +1,36 @@
+h1{
+    color: crimson;
+    background-color: black;
+    margin: 100px;
+    margin-top: 50px;
+    padding: 10px;
+}
+h1:hover{
+    background-color: white;
+}
+p{
+    background-color: black;
+    color: crimson;
+    padding: 20px;
+    border-radius: 35%;
+    font-size: large;
+}
+a{
+    text-decoration: none;
+    color: crimson;
+    background-color: black;
+}
+.cont{
+    display: flex;
+}
+
+.cont div{
+    background-color: black;
+    color: crimson;
+    padding: 20px;
+    border-radius: 35%;
+    font-size: large;
+}
+.box{
+    flex: 1;
+}

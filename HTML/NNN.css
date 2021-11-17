@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.win{
+    background-color: black;
+    border-bottom: 5px solid blanchedalmond;
+}
+ul{
+    overflow: hidden;
+    list-style-type: none;
+  position: sticky;
+  top: 0;
+  position: -webkit-sticky;
+}
+li {
+    float: left;
+    font-size: 32pt;
+  }
+li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color:white;
+    color: black;
+}
+body{
+    background-color: palevioletred;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.container1 div{
+    border: 1px black solid;
+    padding: 10px;
+}
+.box1{
+    flex: 1;
+}
+.box2{
+    flex: 1;
+}
+.box3{
+    flex: 1;
+}
+.container1-box{
+    width: 27%;
+}
+.poppy{
+    margin-left: 28%;
+}
+.pop{
+    top: 0;
+}
